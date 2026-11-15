@@ -15,12 +15,12 @@
 
 ![Codex 浅色实机](https://raw.githubusercontent.com/Galaxy-2001/Rhine-Lab-Codex-Theme/main/docs/media/codex-chat-light-1.2.0.png)
 
-![DeepSeek Harness 浅色实机](https://raw.githubusercontent.com/Galaxy-2001/Rhine-Lab-Codex-Theme/main/dsh/docs/market/dsh-chat-light-1.3.0.png)
+![DeepSeek Harness 浅色实机](https://raw.githubusercontent.com/Galaxy-2001/Rhine-Lab-Codex-Theme/main/packages/dsh-rhine-lab-theme/docs/market/dsh-chat-light-1.3.0.png)
 
 ## 生成与验证
 
 根目录执行 `node scripts/generate-pioneer.mjs`、`node scripts/generate-watermark.mjs`；DSH 目录执行 `npm run generate`。安装包携带生成结果，无需用户运行生成器。
 
-`tests/pioneer.test.mjs` 检查 Codex 原生层级、重复应用、移除与布局。`dsh/tests/native-chrome.test.mjs` 使用皮肤中心转换后的 CSS 检查浅深模式、宽窄窗口、侧栏收起 / 展开、输入框点击与 Windows 标题栏读取的 body 色值。
+`tests/pioneer.test.mjs` 检查 Codex 原生层级、重复应用、移除与布局。`packages/dsh-rhine-lab-theme/tests/native-chrome.test.mjs` 使用皮肤中心转换后的 CSS 检查浅深模式、宽窄窗口、侧栏收起 / 展开、输入框点击与 Windows 标题栏读取的 body 色值。
 
 实际桌面验证覆盖官方 Codex 26.1023.6621.0 与 DeepSeek Harness 0.2.1-rc.3 的浅深模式、设置页、标题栏和背景动画。网页夹具与实际客户端检查分别记录在两端验证文档中；未宣称在第二台电脑验证。

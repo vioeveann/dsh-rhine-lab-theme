@@ -6,16 +6,16 @@
 
 | 亮色 · 空会话页 | 深色 · 空会话页 |
 | --- | --- |
-| ![亮色空会话页](dsh/docs/market/dsh-hero-light-1.0.0.png) | ![深色空会话页](dsh/docs/market/dsh-hero-dark-1.0.0.png) |
+| ![亮色空会话页](packages/dsh-rhine-lab-theme/docs/market/dsh-hero-light-1.0.0.png) | ![深色空会话页](packages/dsh-rhine-lab-theme/docs/market/dsh-hero-dark-1.0.0.png) |
 | **亮色 · 会话页** | **深色 · 会话页** |
-| ![亮色会话页](dsh/docs/market/dsh-chat-light-1.0.0.png) | ![深色会话页](dsh/docs/market/dsh-chat-dark-1.0.0.png) |
+| ![亮色会话页](packages/dsh-rhine-lab-theme/docs/market/dsh-chat-light-1.0.0.png) | ![深色会话页](packages/dsh-rhine-lab-theme/docs/market/dsh-chat-dark-1.0.0.png) |
 
 ## 内容结构
 
 ```
-dsh/                插件本体（package.json、lib/、skins/、scripts/、tests/）
-dsh/docs/           审计记录、验证记录、发版流程、市场截图
-dsh/SECURITY.md     安全说明：写入范围、无联网证明、自查命令
+packages/dsh-rhine-lab-theme/   插件本体（package.json、lib/、skins/、scripts/、tests/）
+packages/dsh-rhine-lab-theme/docs/   审计记录、验证记录、发版流程、市场截图
+packages/dsh-rhine-lab-theme/SECURITY.md   安全说明：写入范围、无联网证明、自查命令
 LICENSE             代码 MIT（含上游版权声明）
 THIRD_PARTY_NOTICES.md  上游项目与第三方依赖声明
 ```
@@ -39,13 +39,13 @@ dsh plugin --profile desktop add "D:\Downloads\dsh-rhine-lab-theme-1.0.0.tgz"
 - npm：<https://www.npmjs.com/package/dsh-rhine-lab-theme>
 - Releases：<https://github.com/vioeveann/dsh-rhine-lab-theme/releases>
 
-装好后点「立即启用」，插件会自动把两个皮肤写入 `$DSH_HOME/skins/` 并在皮肤中心选中「莱茵生命」。详细说明见 [dsh/README.md](dsh/README.md)。
+装好后点「立即启用」，插件会自动把两个皮肤写入 `$DSH_HOME/skins/` 并在皮肤中心选中「莱茵生命」。详细说明见 [插件 README](packages/dsh-rhine-lab-theme/README.md)。
 
 ## 安全
 
 - 纯本地渲染：无联网、无命令执行、无遥测、无安装期脚本；
 - 写入范围仅限 `$DSH_HOME` 下的皮肤目录与两个状态文件；
-- 17 项检查逐条实测，附可复现的自查命令：[SECURITY.md](dsh/SECURITY.md) · [审计记录](dsh/docs/AUDIT.md)。
+- 17 项检查逐条实测，附可复现的自查命令：[SECURITY.md](packages/dsh-rhine-lab-theme/SECURITY.md) · [审计记录](packages/dsh-rhine-lab-theme/docs/AUDIT.md)。
 
 ## 推荐搭配
 

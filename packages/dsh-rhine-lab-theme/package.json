@@ -7,9 +7,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vioeveann/dsh-rhine-lab-theme.git",
-    "directory": "dsh"
+    "directory": "packages/dsh-rhine-lab-theme"
   },
-  "homepage": "https://github.com/vioeveann/dsh-rhine-lab-theme/tree/main/dsh",
+  "homepage": "https://github.com/vioeveann/dsh-rhine-lab-theme/tree/main/packages/dsh-rhine-lab-theme",
   "bugs": {
     "url": "https://github.com/vioeveann/dsh-rhine-lab-theme/issues"
   },
