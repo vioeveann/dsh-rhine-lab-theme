@@ -43,7 +43,7 @@ test('native fixed toggle retains its hit area in both modes and sidebar states'
     const r=await page.locator('.toggle').boundingBox();assert.deepEqual(r,{x:12,y:6,width:28,height:28});
     await page.locator('textarea').click();assert.equal(await page.evaluate(()=>window.toggles),collapsed?1:0);
     assert.equal(await page.locator('textarea').evaluate(e=>e===document.activeElement),true);
-    const row=await page.locator('.brand-row').boundingBox();assert.equal(row.height,collapsed?0:144);
+    const row=await page.locator('.brand-row').boundingBox();assert.equal(row.height,collapsed?0:117); // 1.0.0 起品牌行固定 117px（上移版面）
     const menu=await page.locator('[data-windows-menu]').boundingBox();assert.ok(menu.x+menu.width<=width-150);
     if(collapsed){const n=await page.locator('[data-dsh-part=new-session]').boundingBox();assert.equal(n.width,28);assert.equal(n.height,28);}
     await page.locator('.toggle').click();
