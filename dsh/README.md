@@ -40,7 +40,9 @@
 
 ## 安装
 
-桌面版选用 `dsh-rhine-lab-theme-1.0.0.tgz`（`npm run build` 会在 `dist/` 生成）；Skin ZIP 用于已有皮肤中心的手动安装，Source ZIP 用于开发。
+**从 npm 安装**：`dsh plugin --profile desktop add dsh-rhine-lab-theme`（[npm 页面](https://www.npmjs.com/package/dsh-rhine-lab-theme)）。
+
+**从本地 tarball 安装**：用 `npm run build` 在 `dist/` 生成的 `dsh-rhine-lab-theme-1.0.0.tgz`；Skin ZIP 用于已有皮肤中心的手动安装，Source ZIP 用于开发。
 
 ### 官方桌面客户端（推荐）
 

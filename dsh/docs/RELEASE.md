@@ -24,6 +24,8 @@ sha256sum -c dist/SHA256SUMS.txt
 
 发布时把 tarball 和校验和一起上传，打 tag `dsh-v1.0.0`。
 
+npm 上架后，安装可以简写成 `dsh plugin --profile desktop add dsh-rhine-lab-theme`。
+
 ## 版本规则
 
 - **1.0.0** 是重制版的首个版本；皮肤 id 仍为 `rhine-lab` / `rhine-lab-lumen`，覆盖安装即可，用户的皮肤选择保留；

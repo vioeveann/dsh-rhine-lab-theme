@@ -22,14 +22,22 @@ THIRD_PARTY_NOTICES.md  上游项目与第三方依赖声明
 
 ## 安装
 
-插件包：`dsh-rhine-lab-theme-1.0.0.tgz`
+**从 npm 安装（推荐）**
 
 ```bash
-# 官方桌面版
-dsh plugin --profile desktop add "D:\Downloads\dsh-rhine-lab-theme-1.0.0.tgz"
-
-# 或：DSH 里进入「插件 → 添加插件」，填 tarball 的完整路径
+dsh plugin --profile desktop add dsh-rhine-lab-theme
 ```
+
+**从本地 tarball 安装**
+
+```bash
+dsh plugin --profile desktop add "D:\Downloads\dsh-rhine-lab-theme-1.0.0.tgz"
+```
+
+或在 DSH 里进入「插件 → 添加插件」，填 tarball 的完整路径。
+
+- npm：<https://www.npmjs.com/package/dsh-rhine-lab-theme>
+- Releases：<https://github.com/vioeveann/dsh-rhine-lab-theme/releases>
 
 装好后点「立即启用」，插件会自动把两个皮肤写入 `$DSH_HOME/skins/` 并在皮肤中心选中「莱茵生命」。详细说明见 [dsh/README.md](dsh/README.md)。
 
