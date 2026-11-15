@@ -1,0 +1,39 @@
+{
+  "$schema": "https://schemas.linxin666.org/dsh-skin/v2.json",
+  "skinManifestVersion": 2,
+  "id": "rhine-lab-lumen",
+  "name": "莱茵生命 · 明色",
+  "nameEn": "Rhine Lab Lumen",
+  "version": "1.0.0",
+  "author": "Vioeve ann（重制版；原作 Galaxy-2001）",
+  "tagline": "明色变体 · 提亮的奶油 / 金 / 青石",
+  "description": "与「莱茵生命」同一套 Pioneer 终端版面，配色提亮为明快的奶油色、金色与浅青石色；顶栏标志与主皮肤一致，背景保留网格纹理。",
+  "tags": [
+    "rhine-lab",
+    "arknights",
+    "research",
+    "animated",
+    "light",
+    "lumen"
+  ],
+  "accent": "#992C27",
+  "order": 51,
+  "attribution": "莱茵生命、RHINE LAB 及相关标志属于《明日方舟》权利方；此为非官方同人主题。",
+  "preview": {
+    "light": "preview/light.png",
+    "dark": "preview/dark.png"
+  },
+  "contributes": {
+    "stylesheet": "skin.css",
+    "backgroundMedia": {
+      "light": {
+        "type": "image",
+        "src": "assets/background-light-quiet.svg"
+      },
+      "dark": {
+        "type": "image",
+        "src": "assets/background-dark-quiet.svg"
+      }
+    }
+  }
+}

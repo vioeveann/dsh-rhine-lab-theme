@@ -1,0 +1,5 @@
+- insert:
+    - id: rhine-lab-rebuild-assets
+      name: dsh-rhine-lab-theme
+    - id: rhine-lab-rebuild-center
+      name: '@linxin666/dsh-client-ui-skin-center'

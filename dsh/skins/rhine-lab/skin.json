@@ -1,0 +1,38 @@
+{
+  "$schema": "https://schemas.linxin666.org/dsh-skin/v2.json",
+  "skinManifestVersion": 2,
+  "id": "rhine-lab",
+  "name": "莱茵生命",
+  "nameEn": "Rhine Lab",
+  "version": "1.0.0",
+  "author": "Vioeve ann（重制版；原作 Galaxy-2001）",
+  "tagline": "终端面板 · 奶油白 / 石墨黑 · 顶栏标志",
+  "description": "Pioneer 终端面板设计：奶油白与莱茵橙、粗体终端标题、圆环刻度和彩色细边。顶栏右侧为莱茵生命标志（∞ + RHINE·LAB 字标），背景保留网格纹理，正文后面不铺水印。",
+  "tags": [
+    "rhine-lab",
+    "arknights",
+    "research",
+    "animated",
+    "light"
+  ],
+  "accent": "#8B3C1C",
+  "order": 50,
+  "attribution": "莱茵生命、RHINE LAB 及相关标志属于《明日方舟》权利方；此为非官方同人主题。",
+  "preview": {
+    "light": "preview/light.png",
+    "dark": "preview/dark.png"
+  },
+  "contributes": {
+    "stylesheet": "skin.css",
+    "backgroundMedia": {
+      "light": {
+        "type": "image",
+        "src": "assets/background-light-quiet.svg"
+      },
+      "dark": {
+        "type": "image",
+        "src": "assets/background-dark-quiet.svg"
+      }
+    }
+  }
+}

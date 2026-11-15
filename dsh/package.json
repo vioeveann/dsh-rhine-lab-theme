@@ -1,0 +1,58 @@
+{
+  "name": "dsh-rhine-lab-theme",
+  "version": "1.0.0",
+  "description": "莱茵生命主题（重制版）：基于 Galaxy-2001 的 Rhine-Lab-Codex-Theme（MIT）重构，适配 DeepSeek Harness 桌面版与网页版。",
+  "author": "Vioeve ann",
+  "license": "MIT",
+  "type": "module",
+  "main": "lib/index.mjs",
+  "exports": {
+    ".": "./lib/index.mjs",
+    "./package.json": "./package.json"
+  },
+  "icon": "icon.svg",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "theme",
+    "rhine-lab",
+    "arknights"
+  ],
+  "files": [
+    "lib",
+    "scripts/install.mjs",
+    "skins",
+    "cordis.patch.yml",
+    "icon.svg",
+    "SECURITY.md",
+    "README.md",
+    "README.en.md",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md",
+    "docs",
+    "screenshots.json"
+  ],
+  "dsh": {
+    "engines": {
+      "dsh": ">=0.1.7-rc.1"
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "build": "node scripts/build.mjs",
+    "generate": "node scripts/generate-pioneer.mjs && node scripts/generate-watermark.mjs && node scripts/compose-background.mjs"
+  },
+  "devDependencies": {
+    "@deepseek-ai/dsh": "0.1.7-rc.1",
+    "ajv": "8.17.1",
+    "fflate": "0.8.2",
+    "playwright": "1.56.1",
+    "tsx": "4.20.6"
+  },
+  "dependencies": {
+    "@linxin666/dsh-client-ui-skin-center": "0.4.5"
+  }
+}

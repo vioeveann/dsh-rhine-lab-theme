@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 200" role="img" aria-label="Rhine Lab"><style>
+@keyframes rhine-gap{from{stroke-dashoffset:971.5530}to{stroke-dashoffset:-1558.7834}}
+.rhine-ribbon{animation:rhine-gap 6s linear infinite}
+@media(prefers-reduced-motion:reduce){.rhine-ribbon{animation:none}}
+</style>
+  <g transform="translate(0,6) scale(0.42) translate(-54,-42)">
+    <g fill="none" stroke="#6C7A34" stroke-width="76" stroke-linejoin="round" stroke-linecap="butt">
+      <path class="rhine-ribbon" d="M552 266 L409.5219 134.4781 A186 186 0 1 0 409.5219 397.5219 L552 266 L695.4781 134.4781 A186 186 0 1 1 695.4781 397.5219 L552 266 Z" stroke-dasharray="2450.3364 80" stroke-dashoffset="971.5530"/>
+    </g>
+    <g fill="#6C7A34">
+      <path d="M222 245h150v42H222z M276 191h42v150h-42z"/>
+      <path d="M752 245h136v42H752z"/>
+    </g>
+  </g>
+  <text x="1210" y="128" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="84" letter-spacing="15" fill="#111111">RHINE·LAB</text>
+</svg>
