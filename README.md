@@ -4,7 +4,11 @@
 
 一套给 **DeepSeek Harness** 用的非官方同人主题：奶油白 / 石墨黑终端版面、莱茵生命 ∞ 标志、三色细边与等宽小字。两套皮肤（原色 / 明色），亮暗自适应。
 
-![浅色 · 空会话页](dsh/docs/market/dsh-hero-light-1.0.0.png)
+| 亮色 · 空会话页 | 深色 · 空会话页 |
+| --- | --- |
+| ![亮色空会话页](dsh/docs/market/dsh-hero-light-1.0.0.png) | ![深色空会话页](dsh/docs/market/dsh-hero-dark-1.0.0.png) |
+| **亮色 · 会话页** | **深色 · 会话页** |
+| ![亮色会话页](dsh/docs/market/dsh-chat-light-1.0.0.png) | ![深色会话页](dsh/docs/market/dsh-chat-dark-1.0.0.png) |
 
 ## 内容结构
 
