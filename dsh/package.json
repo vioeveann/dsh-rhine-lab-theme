@@ -4,6 +4,15 @@
   "description": "莱茵生命主题（重制版）：基于 Galaxy-2001 的 Rhine-Lab-Codex-Theme（MIT）重构，适配 DeepSeek Harness 桌面版与网页版。",
   "author": "Vioeve ann",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vioeveann/dsh-rhine-lab-theme.git",
+    "directory": "dsh"
+  },
+  "homepage": "https://github.com/vioeveann/dsh-rhine-lab-theme/tree/main/dsh",
+  "bugs": {
+    "url": "https://github.com/vioeveann/dsh-rhine-lab-theme/issues"
+  },
   "type": "module",
   "main": "lib/index.mjs",
   "exports": {
