@@ -4,10 +4,10 @@
   "id": "rhine-lab",
   "name": "莱茵生命",
   "nameEn": "Rhine Lab",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Vioeve ann（重制版；原作 Galaxy-2001）",
-  "tagline": "终端面板 · 奶油白 / 石墨黑 · 顶栏标志",
-  "description": "Pioneer 终端面板设计：奶油白与莱茵橙、粗体终端标题、圆环刻度和彩色细边。顶栏右侧为莱茵生命标志（∞ + RHINE·LAB 字标），背景保留网格纹理，正文后面不铺水印。",
+  "tagline": "《明日方舟》莱茵生命 · 奶油白 / 石墨黑",
+  "description": "《明日方舟》莱茵生命（Rhine Lab）同人主题。Pioneer 终端面板设计：奶油白与莱茵橙、粗体终端标题、圆环刻度和彩色细边；顶栏右侧为 ∞ + RHINE·LAB 字标，背景保留网格纹理。",
   "tags": [
     "rhine-lab",
     "arknights",

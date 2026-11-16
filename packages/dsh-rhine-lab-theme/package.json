@@ -1,7 +1,7 @@
 {
   "name": "dsh-rhine-lab-theme",
-  "version": "1.0.1",
-  "description": "莱茵生命主题（重制版）：基于 Galaxy-2001 的 Rhine-Lab-Codex-Theme（MIT）重构，适配 DeepSeek Harness 桌面版与网页版。",
+  "version": "1.0.2",
+  "description": "《明日方舟》莱茵生命（Rhine Lab）主题（重制版）：基于 Galaxy-2001 的 Rhine-Lab-Codex-Theme（MIT）重构，适配 DeepSeek Harness 桌面版与网页版。",
   "author": "Vioeve ann",
   "license": "MIT",
   "repository": {
@@ -25,7 +25,8 @@
     "deepseek-harness",
     "theme",
     "rhine-lab",
-    "arknights"
+    "arknights",
+    "arknights-theme"
   ],
   "files": [
     "lib",
